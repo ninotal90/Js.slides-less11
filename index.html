@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="
+https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
+"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles/style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="splide">
+      <div class="splide__track">
+        <div class="splide__list">
+          <div class="splide__slide">
+            <div class="img-box">
+              <img src="images/img1.jpeg" alt="image" />
+            </div>
+          </div>
+          <div class="splide__slide">
+            <div class="img-box">
+              <img src="images/img2.jpeg" alt="image" />
+            </div>
+          </div>
+          <div class="splide__slide">
+            <div class="img-box">
+              <img src="images/img3.webp" alt="image" />
+            </div>
+          </div>
+          <div class="splide__slide">
+            <div class="img-box">
+              <img src="images/img4.jpeg" alt="image" />
+            </div>
+          </div>
+          <div class="splide__slide">
+            <div class="img-box">
+              <img src="images/img5.jpeg" alt="image" />
+            </div>
+          </div>
+          <div class="splide__slide">
+            <div class="img-box">
+              <img src="images/img6.jpeg" alt="image" />
+            </div>
+          </div>
+          <div class="splide__slide">
+            <div class="img-box">
+              <img src="images/img7.webp" alt="image" />
+            </div>
+          </div>
+          <div class="splide__slide">
+            <div class="img-box">
+              <img src="images/img8.jpeg" alt="image" />
+            </div>
+          </div>
+          <div class="splide__slide">
+            <div class="img-box">
+              <img src="images/img9.webp" alt="image" />
+            </div>
+          </div>
+          <div class="splide__slide">
+            <div class="img-box">
+              <img src="images/img10.jpeg" alt="image" />
+            </div>
+          </div>
+          <div class="splide__slide">
+            <div class="img-box">
+              <img src="images/img11.jpeg" alt="image" />
+            </div>
+          </div>
+          <div class="splide__slide">
+            <div class="img-box">
+              <img src="images/img12.webp" alt="image" />
+            </div>
+          </div>
+          <div class="splide__slide">
+            <div class="img-box">
+              <img src="images/img13.webp" alt="image" />
+            </div>
+          </div>
+          <div class="splide__slide">
+            <div class="img-box">
+              <img src="images/img14.gif" alt="image" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- <script src="script.js"></script> -->
+    <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js"></script>
+    <script type="text/javascript">
+      var splide = new Splide(".splide", {
+        type: "loop",
+        drag: "free",
+        snap: true,
+        perPage: 3,
+        autoplay:true,
+      });
+
+      splide.mount();
+    </script>
+  </body>
+</html>
