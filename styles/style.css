@@ -4,9 +4,9 @@ body {
 .splide {
     top: 200px;
 }
-.splide.is-initialized  {
+/* .splide.is-initialized  {
    padding: 0 60px;
-}
+} */
 .img-box {
     max-width: 400px;
     width: 100%;
